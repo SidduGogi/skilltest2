@@ -1,18 +1,7 @@
-import java.util.Scanner;
 class student_enroll{
-    Scanner s=new Scanner(System.in);
-    String name;
-    String Course;
-    int ph;
-
-    void register(){
-        System.out.println("Enter student name: ");
-        name=s.nextLine();
-        System.out.println("Enter student course: ");
-        Course=s.nextLine();
-        System.out.println("Enter student mobile number: ");
-        ph=s.nextInt();
-    }
+    String name="student1";
+    String Course="cs;
+    int ph=1234567890;
 
     void display(){
         System.out.println("Student details are: ");
@@ -22,8 +11,7 @@ class student_enroll{
         System.out.println("Student register id is: "+"183cs23033");
     }
     public static void main(String[] args){
-        student_enroll se=new student_enroll();
-        se.register();
+        student_enroll se=new student_enroll();        
         se.display();
     }
 }
