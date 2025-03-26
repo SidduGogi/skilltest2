@@ -21,9 +21,6 @@ class student_enroll{
         System.out.println("Student ph.no: "+ph);
         System.out.println("Student register id is: "+"183cs23033");
     }
-}
-
-class caller{
     public static void main(String[] args){
         student_enroll se=new student_enroll();
         se.register();
